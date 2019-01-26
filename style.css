@@ -1,7 +1,5 @@
 #grid {
     display: grid;
-    height: 600px;
-    width: 500px;
     grid-template-areas: 
         'display display display display'
         'seven eight nine add'
@@ -13,16 +11,20 @@
 
 #display {
     grid-area: display;
+    min-height: 100px;
     border-radius: 5px;
     border: 1px solid black;
-    font-weight: bold;
-    font-size: 60px;
 }
 
+#content {
+    font-family: monospace;
+    font-size: 80px;
+}
 
 .button {
     border-radius: 5px;
     border: 1px solid black;
+    min-height: 100px;
 }
 
 #zero {
