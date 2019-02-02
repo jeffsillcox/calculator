@@ -7,11 +7,12 @@
         'one two three multiply'
         'clear zero equal divide';
     gap: 10px 10px;
+    width: 600px;
 }
 
 #display {
     grid-area: display;
-    min-height: 100px;
+    /* min-height: 100px; */
     border-radius: 5px;
     border: 1px solid black;
 }
@@ -19,12 +20,16 @@
 #content {
     font-family: monospace;
     font-size: 80px;
+    text-align: right;
 }
 
 .button {
     border-radius: 5px;
     border: 1px solid black;
-    min-height: 100px;
+    /* min-height: 100px; */
+    font-family: monospace;
+    font-size: 80px;
+    text-align: center;
 }
 
 #zero {
