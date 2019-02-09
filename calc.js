@@ -16,18 +16,21 @@ function divide(a, b) {
 
 function operate(a, operator, b) {
     switch (operator) {
-        case "+":
+        case '+':
             add(a, b);
             break;
-        case "-":
+        case '-':
             subtract(a, b);
             break;
-        case "*":
+        case '*':
             multiply(a, b);
             break;
-        case "/":
+        case '/':
             divide(a, b);
             break;
     }
 }
 
+// test display variable
+let displayContent = document.getElementById('content');
+displayContent.innerHTML = '1234';
